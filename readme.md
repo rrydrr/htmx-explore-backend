@@ -33,9 +33,11 @@ Make sure you have the following installed:
 
 ### Configuration
 
-1. Create a `.env` file in the root directory and add your MySQL configuration:
+1. Create a `.env` file in the root directory and add your MySQL configuration and App Port:
     ```env
+    APP_PORT=5000
     DB_HOST=localhost
+    DB_PORT=3306
     DB_USER=root
     DB_PASSWORD=yourpassword
     DB_NAME=yourdatabase
